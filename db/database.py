@@ -1,11 +1,11 @@
 from deta import Deta
 from os import getenv
 
-deta = Deta(getenv("DETA_PROJECT_KEY"))
+deta = Deta(getenv("678785ffhfhfjh"))
 
 
 def client_db():
-    return deta.Base("client")
+    return deta.Base("xxx")
 
 
 def notification_db():
